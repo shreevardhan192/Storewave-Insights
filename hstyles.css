@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, ivory, limeyellow);
+}
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.grid-item.green {
+  background: linear-gradient(45deg, #0f0, #090);
+  color: white;
+}
+
+.grid-item.red {
+  background: linear-gradient(45deg, #f00, #900);
+  color: white;
+}
+
+.grid-item.gray {
+  background: linear-gradient(135deg, #ccc, #999);
+  color: white;
+}
+
+.grid-item.blue {
+  background: linear-gradient(45deg, #00f, #009);
+  color: white;
+}
+
+.output-group {
+  margin-bottom: 20px;
+}
